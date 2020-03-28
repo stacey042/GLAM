@@ -1,4 +1,16 @@
 body{
-	background-color: yellow;
+	background-color: #F1E6D5;
 
+}
+
+.cover {
+  	object-fit: cover;
+  	width: 100%;
+  	height: 400px;
+}
+
+.book{
+	font-family: raleway, sans-serif;
+	font-size: 30px;
+	color: #544E4E;
 }
