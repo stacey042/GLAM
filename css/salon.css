@@ -10,6 +10,7 @@ body, html{
 
 header{
 	margin-top: 30px;
+	height: 90px;
 
 }
 
@@ -26,7 +27,6 @@ ul{
 }
 
 li{
-	float: left;
 	display: inline;
 	padding: 10px;
 	font-family: raleway, sans-serif;
@@ -78,31 +78,93 @@ h1{
 	letter-spacing: 0.5px;
 }
 
+.popup{
+
+	/*display: none;*/
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+}
+
+.popup .content{
+	box-sizing: border-box;
+	padding: 30px 40px;
+	width: 550px;
+	height: 540px;
+	background-color: white;
+	line-height: 60px;
+	font-size: 20px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -270px;
+	margin-left: -275px;
+}
+
+.popup .close{
+	width: 80px;
+	height: 80px;
+	background: url(img/close.png) no-repeat center center;
+	background-size: 100%;
+	top: -40px;
+	right: -40px;
+
+
+
+
+}
+ 
+
+
+.popup .blanket{
+	background-color: rgba(0,0,0,.7);
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+}
+
 a.cta.alt,
 button.cta.alt{
 
+
+
 }
 
-a.cta,
-button.cta.alt{
+a.cta{
+	font-size: 22px;
+	font-family: raleway,sans-serif;
+	color: #544E4E;
+	background-color: #F3CF4C;
+	padding: 10px 20px;
+	border-radius: 10px;
 
 }
 
 .services{
+
 	margin-left: 80px;
 	margin-top: 80px;
 
 }
 
-.services h1{
-	font-size: 35px;
-	font-weight: bolder;
-	padding-top: ;
-}
 
 .services-pic{
+
 	position: relative;
-	
+	top: -709px;
+	left: 700px;
+	max-width: 100%;
+  	height: 703px;
+  	display: inline-block;
+  	overflow: hidden;
+  	margin: 0;	
+  	border: 1px solid #BFBFBF;
+  	background-color: white;
+  	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
 }
 
