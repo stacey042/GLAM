@@ -27,13 +27,13 @@
 	<div class="book">
 		<h1>New Hair, New You</h1>
 		<h3>Book your service and we'll do the rest.</h3>
-		<a href="schedule.html" class="cta">Schedule Appointment</a>
+		<a href="javascript:" onclick="showPopup();" class="cta">Schedule Appointment</a>
 	</div>
 
 	<footer>
 		
 	</footer>
-	<div class="popup">
+	<div class="popup" id="popup">
 		<div class="blanket">
 		<div class="content">
 			<form action="">
@@ -57,14 +57,14 @@
 					<label>Dates of availability (Include 3 dates)</label>
 					<input type="text" placeholder="3/28, 4/1, 4/8">
 				</div>
-				<button class="cta.alt">Request Appointment</button>
+				<button class="ctaalt" onclick="showPopup();">Request Appointment</button>
 			</form>
 			
-			<button class="close">Close</button>	
+			<button class="close" onclick="hidePopup();" style="background: url(img/close.png) no-repeat center center">Close</button>	
 
 	</div>
 
-
+<script src="script.js" type="text/javascript"></script>
 
 	
 

@@ -80,12 +80,18 @@ h1{
 
 .popup{
 
-	/*display: none;*/
+	display: none;
 	position: fixed;
 	top: 0;
 	bottom: 0;
 	right: 0;
 	left: 0;
+
+
+}
+
+.popup.show{
+	display: block;
 }
 
 .popup .content{
@@ -94,7 +100,7 @@ h1{
 	width: 550px;
 	height: 540px;
 	background-color: white;
-	line-height: 60px;
+	line-height: 50px;
 	font-size: 20px;
 	position: absolute;
 	left: 50%;
@@ -104,18 +110,30 @@ h1{
 }
 
 .popup .close{
-	width: 80px;
-	height: 80px;
-	background: url(img/close.png) no-repeat center center;
-	background-size: 100%;
-	top: -40px;
-	right: -40px;
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	background: #ffffff;
+	border: none;
+	overflow: hidden;
+	text-indent: -999px;
+	cursor: pointer;
+}	
 
-
-
+.popup .item label{
+	display: block;
+	font-weight: bold;
 
 }
- 
+
+.popup .item input[type='text']{
+	display: block;
+	font-size: 20px;
+	font-family: raleway, sans-serif;
+
+}
 
 
 .popup .blanket{
@@ -127,13 +145,6 @@ h1{
 	left: 0;
 }
 
-a.cta.alt,
-button.cta.alt{
-
-
-
-}
-
 a.cta{
 	font-size: 22px;
 	font-family: raleway,sans-serif;
@@ -143,6 +154,23 @@ a.cta{
 	border-radius: 10px;
 
 }
+
+
+a.ctaalt,
+button.ctaalt{
+	background-color: #F3CF4C;
+    color: #544E4E;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: raleway,sans-serif;
+    padding: 15px 25px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 111px;
+
+}
+
 
 .services{
 
