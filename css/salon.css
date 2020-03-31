@@ -20,6 +20,10 @@ nav{
 	
 }
 
+nav h3{
+	display: inline;
+}
+
 ul{
 	list-style: none;
 	padding: 0;
@@ -73,6 +77,8 @@ h1{
 
 .about{
 	text-align: justify;
+	width: 85%;
+	font-weight: 500px;
 	padding: 100px;
 	line-height: 30px;
 	letter-spacing: 0.5px;
@@ -86,6 +92,7 @@ h1{
 	bottom: 0;
 	right: 0;
 	left: 0;
+
 
 
 }
@@ -107,6 +114,8 @@ h1{
 	top: 50%;
 	margin-top: -270px;
 	margin-left: -275px;
+	border-radius: 10px;
+
 }
 
 .popup .close{
@@ -148,10 +157,13 @@ h1{
 a.cta{
 	font-size: 22px;
 	font-family: raleway,sans-serif;
+	font-weight: bold;
 	color: #544E4E;
 	background-color: #F3CF4C;
 	padding: 10px 20px;
+	border: 2px 4px rgba(0,0,0,.7);
 	border-radius: 10px;
+	border: 3px solid rgba(0,0,0,.20);
 
 }
 
@@ -165,9 +177,11 @@ button.ctaalt{
     font-family: raleway,sans-serif;
     padding: 15px 25px;
     margin-top: 20px;
-    border-radius: 10px;
-    border: none;
     margin-left: 111px;
+    border: 3px solid rgba(0,0,0,.20);
+    border-radius: 10px;
+    
+
 
 }
 
@@ -179,11 +193,18 @@ button.ctaalt{
 
 }
 
+.services .layer{
+	background-color: rgba(0,0,0,.5);
+	height: 865px;
+    width: 1346px;
+    margin-left: 0;
+    border: 3px solid rgba(0,0,0,.15);
+}
+
 
 .services-pic{
-
 	position: relative;
-	top: -709px;
+	top: -704px;
 	left: 700px;
 	max-width: 100%;
   	height: 703px;
@@ -196,23 +217,26 @@ button.ctaalt{
 
 }
 
-.color{
+.services .color{
 	
 	width: 500px;
   	padding-top: 45px;
   	padding-left: 30px;
+  	margin-top: 80px;
+  	margin-left: 80px;
   	border: 1px solid #BFBFBF;
   	background-color: white;
   	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 	
 }
 
-.other{
+.services .other{
 
 	width: 500px;
   	padding-top: 47px;
   	padding-bottom: 30px;
   	padding-left: 30px;
+  	margin-left: 80px;
   	border: 1px solid #BFBFBF;
   	background-color: white;
   	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
