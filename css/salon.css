@@ -62,7 +62,9 @@ h1{
 }
 
 .book{
-	margin: 80px 100px;
+	margin: 50px 100px;
+	width: 996px
+	height: 210px;
 
 }
 .book h3{
