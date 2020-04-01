@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,500,700,800&display=swap');
 
+
 body, html{
 	font-family: raleway, sans-serif;
 	color: #544E4E;
@@ -160,7 +161,6 @@ a.cta{
 	color: #544E4E;
 	background-color: #F3CF4C;
 	padding: 10px 20px;
-	border: 2px 4px rgba(0,0,0,.7);
 	border-radius: 10px;
 	border: 3px solid rgba(0,0,0,.20);
 
@@ -241,5 +241,34 @@ button.ctaalt{
   	background-color: white;
   	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 	
+}
 
+.contactpic{
+	object-fit: cover;
+	width: 100%;
+	height: 700px;
+}
+
+.contact{
+	
+	text-align: center;
+	letter-spacing: 3px;
+	font-weight: bold;
+	line-height: 40px;
+	background-color: rgba(0,0,0,.50);
+	color: white;
+	position: relative;
+    margin-top: -500px;
+    margin-left: 350px;
+    width: 700px;
+    padding: 20px;
+    
+
+}
+
+
+.contact p{
+	margin: 3px 0px;
+	background: rgba(0,0,0,.50);
+	padding: 20px;
 }
