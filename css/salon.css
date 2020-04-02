@@ -123,13 +123,12 @@ h1{
 
 
 .popup .close{
-	background: url(img/close.png) no-repeat center center;
+	background: #ffffff url(../img/close.png) no-repeat center center;
 	width: 40px;
 	height: 40px;
 	position: absolute;
 	top: 10px;
 	right: 10px;
-	background: #ffffff;
 	border: none;
 	overflow: hidden;
 	text-indent: -999px;
