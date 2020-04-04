@@ -11,21 +11,18 @@ body, html{
 
 header{
 	margin-top: 10px;
-	margin-bottom: -20px;
-	height: 90px;
+	height: 70px;
+	
 
 }
 
-
-nav h3{
-	display: inline;
-}
 
 ul{
 	list-style: none;
 	padding: 0;
 	margin: 0;
 }
+
 
 li{
 	display: inline;
@@ -40,7 +37,6 @@ a {
    color: #544E4E;
 
 }
-
 
 
 .right{
